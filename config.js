@@ -1,6 +1,6 @@
 module.exports = {
     subscriberCountTarget: 100000,
-    channelId: '',
+    channelId: 'https://www.youtube.com/channel/UCtz0UTZIgoS7W3tzcpTlDmA',
     hostname: 'http://localhost:3000',
     port: 3000,
     interval: {
@@ -10,8 +10,8 @@ module.exports = {
 
     // https://console.cloud.google.com/apis/credentials
     keys: {
-        client_secret: '',
-        client_id: '',
+        client_secret: 'yes',
+        client_id: 'subscriber',
         redirect_uris: ['http://localhost:3000/oauth2callback']
     }
 }
